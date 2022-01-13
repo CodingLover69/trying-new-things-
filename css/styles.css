@@ -40,17 +40,51 @@ header {
 .container {
   width: auto;
   height: 100vh;
-  background-color: #cad49d;
-  font-size: 24;
+  background-color: #acd300;
+  font-size: 24px;
 
 }
 
 .container h3 {
+    background-color: rgb(223, 0, 0);
+
+}
+.container h6 {
     background-color: black;
+    color: white;
+    text-align: center;
+    font: 20px;
 
 }
 
 
+.container li {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: 20px;
+}
+
+
+.container ul img {
+    align-content: center;
+    width: 0;
+}
+  /*Save this colour for later */
 .about {
-  background-color: #d8e2dc;
-}
+    background-color: #d8e2dc;
+  }
+
+
+
+  .skilllogo {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+  }
+
+  .skillcaption {
+    display: block;
+    color: yellowgreen;
+
+  }
