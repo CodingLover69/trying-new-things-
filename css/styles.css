@@ -1,46 +1,6 @@
 * {
-    font-family: "Source Code Pro";
+background-color: #EFECEA;
 
-}
-
-header {
-    background-color: rgba(255, 255, 255, 0.637);
-    padding-top: 200px;
-    padding-bottom: 10vh;    
-    margin: 0 auto;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: "Source Code Pro";
-    font-weight: 100;
-}
-
-header h1 {
-    text-align: center;
-    margin-left: auto;
-    font-size: 80px;
-}
-
-header h2 {
-    margin-top: -49px;
-    font-size: 28px;
-    text-align: center;
-    margin-left: auto;
-}
-
-
-.front  {
-    color: #ffc400;
-}
-.ui {
-    color: coral;
-}
-
-.navlist {
-    text-align: center;
-    font-size: 28px;
-    padding: 20px 0 30px 0;
 
 
 }
-
