@@ -47,6 +47,8 @@ header {
 
 .container h3 {
     background-color: rgb(223, 0, 0);
+    text-align: center;
+    font-size: 50px;
 
 }
 .container h6 {
@@ -57,18 +59,6 @@ header {
 
 }
 
-
-.container li {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font: 20px;
-}
-
-
-.container ul img {
-    align-content: center;
-    width: 0;
 }
   /*Save this colour for later */
 .about {
@@ -80,11 +70,14 @@ header {
   .skilllogo {
     width: 100px;
     height: 100px;
-    background-color: grey;
+    align-content: center;
+    text-align: center;
+    background-color: black
+    
   }
-
-  .skillcaption {
+  img {
+      margin-top: 15px;
+      padding: 10px 10px 10px 10px;
+    align-content: center;
     display: block;
-    color: yellowgreen;
-
   }
