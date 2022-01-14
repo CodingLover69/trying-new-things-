@@ -65,14 +65,12 @@ body {
   z-index: 1;
   align-content: center;
   flex: 1;
-  box-shadow: 1px 1px #000000;
 }
 
   .navbutton {
     width: 100%;
     padding: 5px;
     margin: auto;
-    background-color: #fafad2;
     text-decoration: none;
     justify-content: center;
     text-align: center;
@@ -81,16 +79,17 @@ body {
   }
 
     .navbutton p {
-      color: rgb(0, 0, 0);
+      color: #2c4e63;
     }
 
 
 
 .navbutton:hover {
-  background-color: #fec89a;
-  color: black;
+  background-color: #cd4631;
+  color: #2c4e63;
   cursor: pointer;
   pointer-events: auto;
+  border: 1px solid black;
 }
 
 
