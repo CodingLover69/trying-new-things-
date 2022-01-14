@@ -34,7 +34,7 @@ body {
 .highlight {
   color: #cd4631;
 }
-
+/* Trying something new - old nav - remove <p> in html to revert changes
 .navigationbar {
   position: fixed;
   background-color: grey;
@@ -47,13 +47,44 @@ body {
   position: relative;
   background-color: #b18787;
   font-size: 20px;
+  border:3px solid rgba(0, 0, 0, 0.274);
   border-radius: 15px 15px ;
   padding: 5px 10px 1px 10px;
   margin: 100px 4px 4px 4px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   top: 30%;
 }
+*/
+
+
+.navigationbar {
+  display: flex;
+  background-color: #fafad271;
+  height: 60px;
+  z-index: 1;
+  align-content: center;
+  flex: 1;
+  box-shadow: 1px 1px #000000;
+}
+
+  .navbutton {
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    background-color: #fafad2;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+
+
+  }
+
+    .navbutton p {
+      color: rgb(0, 0, 0);
+    }
+
+
 
 .navbutton:hover {
   background-color: #fec89a;
