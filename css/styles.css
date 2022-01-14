@@ -34,29 +34,6 @@ body {
 .highlight {
   color: #cd4631;
 }
-/* Trying something new - old nav - remove <p> in html to revert changes
-.navigationbar {
-  position: fixed;
-  background-color: grey;
-  width: 100%;
-  height: 60px;
-  z-index: 1;
-  text-align: center;
-}
-.navbutton {
-  position: relative;
-  background-color: #b18787;
-  font-size: 20px;
-  border:3px solid rgba(0, 0, 0, 0.274);
-  border-radius: 15px 15px ;
-  padding: 5px 10px 1px 10px;
-  margin: 100px 4px 4px 4px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  top: 30%;
-}
-*/
-
 
 .navigationbar {
   display: flex;
@@ -109,7 +86,6 @@ body {
   width: 100%;
   margin-top: 15px;
   color: #791c0b;
-  text-transform: uppercase;
 
 
 }
