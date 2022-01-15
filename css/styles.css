@@ -37,7 +37,7 @@ body {
 
 .navigationbar {
   display: flex;
-  background-color: #fafad271;
+  background-color: #2C4E63;
   height: 60px;
   z-index: 1;
   align-content: center;
@@ -55,18 +55,16 @@ body {
 
   }
 
-    .navbutton p {
-      color: #2c4e63;
-    }
-
+.navbutton {
+  color: white;
+}
 
 
 .navbutton:hover {
-  background-color: #cd4631;
-  color: #2c4e63;
+  background-color: #D8E2DC;
+  color: black;
   cursor: pointer;
-  pointer-events: auto;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 
