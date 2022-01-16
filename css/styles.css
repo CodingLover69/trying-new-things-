@@ -104,9 +104,43 @@ body {
     padding: 10px 10px 10px 15px;
     flex-grow: 4;
     
- 
 }
 
-.container__education li {
-  list-style-type: none;
+.container {
+  background-color: blanchedalmond;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  height: 780px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
+.container img {
+  position: absolute;
+  border-radius: 20px;
+  left: 10%;
+  top: 6%;
+  align-items: center;
+}
+
+
+.container h3 {
+    position: absolute;
+    left: 50%;
+    font-size: 60px;
+    top: 0px;
+    color: #cd4631;
+}
+
+.container p {
+    font-size: 25px;
+    margin-left: 650px;
+    margin-top: 8%;
+    word-wrap: break-word;
+    
+
+
+
+}
+
